@@ -117,7 +117,7 @@ button {
 }
 
 .service-card {
-  color: rgb(179, 107, 107);
+  color: rgb(100, 46, 46);
   background-color: grey;
   text-align: center;
   padding: 70px 30px;
@@ -127,52 +127,48 @@ button {
 
 .service-card:hover {
   color: grey;
-  background-color: rgb(179, 107, 107);
+  background-color: rgb(100, 46, 46);
 }
 
-.child-ps p{
-    font-size: 30px;
+.child-ps p {
+  font-size: 30px;
 }
 
 /* Contact */
-#contact{
-    background-color: rgb(198, 191, 191);
-    /* font-size: 60px; */
-    text-decoration: underline;
-    color: grey;
+#contact {
+  background-color: rgb(198, 191, 191);
+  /* font-size: 60px; */
+  text-decoration: underline;
+  color: grey;
 }
 
-#contact h2{
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
+#contact h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
 }
 
-form{
-    margin: 40px auto;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
+form {
+  margin: 40px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
-input{
-    font-size: 18px;
-    padding: 10px;
-    border: grey;
-    border-radius: 6px;
-
+input {
+  font-size: 18px;
+  padding: 10px;
+  border: grey;
+  border-radius: 6px;
 }
 
-footer{
-    background-color: rgb(198, 201, 150);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-
+footer {
+  background-color: rgb(198, 201, 150);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
 }
-
-
 
 @media (max-width: 600px) {
   .menu {
@@ -208,12 +204,12 @@ footer{
     text-align: center;
   }
 
-  .ps{
+  .ps {
     flex-direction: column;
     align-items: center;
   }
 
-  .service-card{
+  .service-card {
     width: 90%;
   }
 }
